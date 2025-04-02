@@ -29,3 +29,7 @@ body {
 .mustafa, .title, .aboutMe, .projectsMe, .contactMe, .certiMe {
   opacity: 0;
 }
+
+.projects, .titleProjects, .gridProjects{
+  opacity: 0;
+}

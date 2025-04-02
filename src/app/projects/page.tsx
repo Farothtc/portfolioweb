@@ -1,3 +1,6 @@
+"use client";
+import { useEffect } from "react";
+import anime from "animejs";
 import Nav from "../components/Nav";
 import projectData from "../lib/projectData";
 import ProjectSections from "../components/ProjectSections";
@@ -5,16 +8,44 @@ export default function Projects() {
   const style = {
     backgroundImage: "linear-gradient(to right, #171719, #111112)",
   };
+  useEffect(() => {
+    anime({
+      targets: ".projects",
+      opacity: [0, 1],
+      translateY: [20, 0],
+      easing: "easeOutQuad",
+      duration: 750,
+      complete: () => {
+        anime({
+          targets: ".titleProjects",
+          opacity: [0, 1],
+          translateY: [20, 0],
+          easing: "easeOutQuad",
+          duration: 750,
+          complete: () => {
+            anime({
+              targets: ".gridProjects",
+              opacity: [0, 1],
+              translateY: [20, 0],
+              easing: "easeOutQuad",
+              duration: 750,
+              delay: anime.stagger(400),
+            });
+          },
+        });
+      },
+    });
+  }, []);
   return (
     <div className="min-h-screen" style={style}>
       <Nav />
       <div className="px-6 pt-20 mx-auto space-y-4 max-w-7xl lg:px-8 md:pt-24 lg:pt-20">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+        <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl projects">
           Projects
         </h1>
-        <p>Nearly all from my personal projects</p>
+        <p className="titleProjects">Nearly all from my personal projects</p>
         <div className="divider py-6"></div>
-        <div className="grid grid-cols-2 grid-rows-3 gap-5 pb-5">
+        <div className="grid grid-cols-2 grid-rows-3 gap-5 pb-5 gridProjects">
           {projectData.map((project) => (
             <ProjectSections key={project.id} e={project} />
           ))}

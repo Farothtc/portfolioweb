@@ -12,7 +12,7 @@ export default function ProjectSections({
 }) {
   return (
     <>
-      <div className="col-span-1 row-span-1">
+      <div className="col-span-1 row-span-1 project-section">
         <div className="card bg-transparent w-full h-full border border-gray-500 shadow-md">
           <div className="card-body flex justify-between items-start">
             <h2 className="card-title absolute left-6 top-4 text-sm font-medium">
