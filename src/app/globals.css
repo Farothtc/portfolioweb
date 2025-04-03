@@ -33,3 +33,7 @@ body {
 .projects, .titleProjects, .gridProjects{
   opacity: 0;
 }
+
+.certificatesGrid, .certificatesTitle{
+  opacity: 0;
+}
