@@ -42,7 +42,7 @@ export default function Certificates() {
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-base sm:text-lg md:text-xl">
-                    CS50x: CS50's Introduction to Computer Science
+                    CS50x: CS50&apos;s Introduction to Computer Science
                   </h2>
                   <div className="card-actions justify-start pt-3">
                     <Link
@@ -64,7 +64,7 @@ export default function Certificates() {
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title text-base sm:text-lg md:text-xl">
-                    CS50's Understanding Technology
+                    CS50&apos;s Understanding Technology
                   </h2>
                   <div className="card-actions justify-start pt-3">
                     <Link
