@@ -46,11 +46,11 @@ export default function Nav() {
 
           {path === "/projects" && (
             <div className="flex gap-5">
-              <Link href="/about">
+              {/* <Link href="/about">
                 <button className="btn btn-ghost text-xs sm:text-sm">
                   About Me
                 </button>
-              </Link>
+              </Link> */}
               <Link href="/certificates">
                 <button className="btn btn-ghost text-xs sm:text-sm">
                   Certificates
@@ -65,11 +65,11 @@ export default function Nav() {
           )}
           {path === "/certificates" && (
             <div className="flex gap-5">
-              <Link href="/about">
+              {/* <Link href="/about">
                 <button className="btn btn-ghost text-xs sm:text-sm">
                   About Me
                 </button>
-              </Link>
+              </Link> */}
               <Link href="/projects">
                 <button className="btn btn-ghost text-xs sm:text-sm">
                   Projects
@@ -84,11 +84,11 @@ export default function Nav() {
           )}
           {path === "/contact" && (
             <div className="flex gap-5">
-              <Link href="/about">
+              {/* <Link href="/about">
                 <button className="btn btn-ghost text-xs sm:text-sm">
                   About Me
                 </button>
-              </Link>
+              </Link> */}
               <Link href="/projects">
                 <button className="btn btn-ghost text-xs sm:text-sm">
                   Projects

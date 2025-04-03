@@ -50,11 +50,11 @@ export default function Home() {
             I'm a Jr. Front-End Web Developer.
           </h2>
           <div className="flex flex-col pt-3 gap-3 sm:flex-row">
-            <Link href="/about">
+            {/* <Link href="/about">
               <button className="btn btn-circle btn-outline btn-sm sm:btn-lg w-40 aboutMe">
                 About Me
               </button>
-            </Link>
+            </Link> */}
             <Link href="/projects">
               <button className="btn btn-circle btn-outline btn-sm sm:btn-lg w-40 projectsMe">
                 Projects
