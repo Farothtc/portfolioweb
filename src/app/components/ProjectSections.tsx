@@ -18,8 +18,8 @@ export default function ProjectSections({
             <h2 className="card-title absolute left-6 top-4 text-sm font-medium">
               {e.date}
             </h2>
-            <h2 className="card-title pt-5 text-4xl">{e.name}</h2>
-            <p className="text-lg pt-3">{e.description}</p>
+            <h2 className="card-title pt-5 text-2xl md:text-4xl">{e.name}</h2>
+            <p className="text-base md:text-lg pt-3">{e.description}</p>
             <div className="card-actions justify-end">
               <Link href={e.link} target="_blank">
                 <button className="btn btn-ghost">

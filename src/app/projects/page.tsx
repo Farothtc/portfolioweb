@@ -45,7 +45,7 @@ export default function Projects() {
         </h1>
         <p className="titleProjects">Nearly all from my personal projects</p>
         <div className="divider py-6"></div>
-        <div className="grid grid-cols-2 grid-rows-3 gap-5 pb-5 gridProjects">
+        <div className="grid grid-cols-1 grid-rows-3 gap-5 pb-5 md:grid-cols-2 gridProjects">
           {projectData.map((project) => (
             <ProjectSections key={project.id} e={project} />
           ))}
