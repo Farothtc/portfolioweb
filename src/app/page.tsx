@@ -44,10 +44,10 @@ export default function Home() {
       <div className="relative h-screen">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  p-4 rounded-lg shadow-md flex flex-col justify-center items-center gap-5 w-auto md:flex-col">
           <h1 className="text-2xl sm:text-4xl mustafa">
-            Hello, I'm <strong>Mustafa</strong>.
+            Hello, I&apos;m <strong>Mustafa</strong>.
           </h1>
           <h2 className="text-lg sm:text-4xl whitespace-nowrap title">
-            I'm a Jr. Front-End Web Developer.
+            I&apos;m a Jr. Front-End Web Developer.
           </h2>
           <div className="flex flex-col pt-3 gap-3 sm:flex-row">
             {/* <Link href="/about">
