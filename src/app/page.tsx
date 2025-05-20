@@ -42,7 +42,7 @@ export default function Home() {
         />
       </div>
       <div className="relative h-screen">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  p-4 rounded-lg shadow-md flex flex-col justify-center items-center gap-5 w-auto md:flex-col">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  p-4 rounded-lg flex flex-col justify-center items-center gap-5 w-auto md:flex-col shadow-none">
           <h1 className="text-2xl sm:text-4xl mustafa">
             Hello, I&apos;m <strong>Mustafa</strong>.
           </h1>
