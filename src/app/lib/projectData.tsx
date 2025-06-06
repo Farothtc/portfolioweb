@@ -7,6 +7,14 @@ type ProjectData = {
 };
 const projectData: ProjectData[] = [
   {
+    id: 0,
+    name: "Conference Ticket Generator",
+    description:
+      "Created fully responsive and a dynamic SPA that aims to reflect a Conference Ticket Generator. Built with Next.js, TypeScript, daisyUI, Tailwind CSS. Deployed with Vercel for better performance.",
+    date: "May - Jun 2025",
+    link: "https://conference-ticket-gen-brown.vercel.app",
+  },
+  {
     id: 1,
     name: "Browser Extension Manager",
     description:
