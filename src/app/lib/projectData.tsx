@@ -5,7 +5,16 @@ type ProjectData = {
   date: string;
   link: string;
 };
+
 const projectData: ProjectData[] = [
+  {
+    id: 8,
+    name: "Shortly",
+    description:
+      "Launched a fully responsive, dynamic SPA that aims to make URLs shorter. Built with Next.js, TypeScript, daisyUI, Tailwind CSS, Next.js API Routes, Axios. Deployed with Vercel for better performance.",
+    date: "May - Jun 2025",
+    link: "https://url-shortening-peach.vercel.app",
+  },
   {
     id: 0,
     name: "Conference Ticket Generator",
@@ -71,5 +80,10 @@ const projectData: ProjectData[] = [
     link: "https://piriltivan.com",
   },
 ];
+
+// const projectData: ProjectData[] = rawProjects.map((project, idx) => ({
+//   ...project,
+//   id: idx + 1,
+// }));
 
 export default projectData;
