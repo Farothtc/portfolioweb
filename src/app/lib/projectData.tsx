@@ -8,6 +8,14 @@ type ProjectData = {
 
 const projectData: ProjectData[] = [
   {
+    id: 9,
+    name: "IP Tracker",
+    description:
+      "Resolved a SPA that is dynamic and fully responsive that aims to track IPs from an IP address or from a domain. Built with Next.js, TypeScript, daisyUI, Tailwind CSS, React Leaflet, Axios. Deployed with Vercel for higher performance.",
+    date: "Jun 2025",
+    link: "https://ip-tracker-seven-mu.vercel.app",
+  },
+  {
     id: 8,
     name: "Shortly",
     description:
